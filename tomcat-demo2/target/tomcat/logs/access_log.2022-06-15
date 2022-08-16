@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:17:54 +0800] "GET /tomcat-demo2 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:17:54 +0800] "GET /tomcat-demo2/ HTTP/1.1" 404 977 http-bio-8080-exec-3 23
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:18:00 +0800] "GET /tomcat-demo2/a.heml HTTP/1.1" 404 989 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:18:12 +0800] "GET /tomcat-demo2/a.html HTTP/1.1" 200 147 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:18:57 +0800] "GET /tomcat-demo2 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:18:57 +0800] "GET /tomcat-demo2/ HTTP/1.1" 404 977 http-bio-8080-exec-3 13
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:19:05 +0800] "GET /tomcat-demo2/a.html HTTP/1.1" 200 141 http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:20:31 +0800] "GET /tomcat-demo2 HTTP/1.1" 302 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:20:32 +0800] "GET /tomcat-demo2/ HTTP/1.1" 404 977 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [15/Jun/2022:23:20:42 +0800] "GET /tomcat-demo2/a.html HTTP/1.1" 304 - http-bio-8080-exec-9 1
